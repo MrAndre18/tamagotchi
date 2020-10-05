@@ -1,0 +1,70 @@
+﻿*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img,
+svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.App-container {
+	height: 100vh;
+}
+.header {
+	height: 22%;
+	box-shadow: 0 -2px 8px 1px rgba(0, 0, 0, 0.6) inset;
+}
+.tamagotchi-body {
+	width: 250px;
+	height: 250px;
+}
+.tamagotchi-body svg *:hover {
+	cursor: pointer;
+	fill: red;
+	stroke: green;
+}
+
+.main {
+	background-color: rgb(125, 191, 235);
+	box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.6) inset;
+}
+
+
+.specifications {
+	width: 25%;
+	height: 70%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: rgb(231, 231, 231);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	box-shadow: 0 0 2px 1px rgb(231, 231, 231);
+}
+.specifications__item {
+	height: 30%;
+	border: 0.5px solid rgb(214, 214, 214);
+}
+.specifications__item * {
+	color: rgb(56, 56, 56);
+}
+
+.timer__body {
+	padding: 10px;
+	background-color: rgb(231, 231, 231);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	box-shadow: 0 0 2px 1px rgb(231, 231, 231);
+}
